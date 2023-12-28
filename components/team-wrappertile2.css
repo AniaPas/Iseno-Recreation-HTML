@@ -1,0 +1,31 @@
+.team-wrappertile2-team-wrappertile {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  z-index: 4000;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.team-wrappertile2-team-wrappertile2img {
+  width: 200px;
+  margin-bottom: 12px;
+}
+.team-wrappertile2-team-wrappertile2name {
+  width: auto;
+  height: 35px;
+  text-align: center;
+}
+.team-wrappertile2-team-wrappertile2surname {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+@media(max-width: 479px) {
+  .team-wrappertile2-root-class-name {
+    align-self: flex-end;
+  }
+}

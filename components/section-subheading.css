@@ -1,0 +1,8 @@
+.section-subheading-container {
+  display: flex;
+  position: relative;
+}
+.section-subheading-section-subheading {
+  color: var(--dl-color-gray-text-secondary);
+  font-weight: 700;
+}

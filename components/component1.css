@@ -1,0 +1,24 @@
+.component4-container {
+  display: flex;
+  position: relative;
+}
+.component4-text {
+  font-size: 24px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 130%;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  position: relative;
+}

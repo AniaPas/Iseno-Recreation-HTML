@@ -1,0 +1,18 @@
+.animated-block-dark-long-animated-block-black {
+  width: 35vw;
+  z-index: 3000;
+  background-color: var(--dl-color-primary-background2);
+}
+.animated-block-dark-long-root-class-name {
+  width: 32vw;
+  margin-top: 12px;
+}
+.animated-block-dark-long-root-class-name1 {
+  width: 32vw;
+  margin-top: 12px;
+}
+@media(max-width: 767px) {
+  .animated-block-dark-long-root-class-name {
+    margin-left: var(--dl-space-space-padding-9pro);
+  }
+}
