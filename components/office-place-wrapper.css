@@ -1,0 +1,28 @@
+.office-place-wrapper-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.office-place-wrapper-office-place-wrapper-country {
+  color: var(--dl-color-gray-text-secondary);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.office-place-wrapper-office-place-wrapper-city {
+  color: var(--dl-color-gray-text-secondary);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+@media(max-width: 479px) {
+  .office-place-wrapper-office-place-wrapper-city {
+    font-size: 22px;
+  }
+}
