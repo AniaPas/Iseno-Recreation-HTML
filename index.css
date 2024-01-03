@@ -69,7 +69,7 @@
   text-align: center;
 }
 
-@media (max-width: 479px) {
+@media(max-width: 479px) {
   .team-wrappertile2-root-class-name {
     align-self: flex-end;
   }
@@ -135,7 +135,7 @@
 .team-wrappertile1-root-class-name13 {
   margin-left: var(--dl-space-space-unit);
 }
-@media (max-width: 1600px) {
+@media(max-width: 1600px) {
   .team-wrappertile1-root-class-name3 {
     margin-left: 0px;
   }
@@ -146,7 +146,7 @@
     margin-left: 0px;
   }
 }
-@media (max-width: 1200px) {
+@media(max-width: 1200px) {
   .team-wrappertile1-root-class-name2 {
     margin-left: 0px;
   }
@@ -160,7 +160,7 @@
     margin-left: 0px;
   }
 }
-@media (max-width: 991px) {
+@media(max-width: 991px) {
   .team-wrappertile1-root-class-name4 {
     margin-top: var(--dl-space-space-twounits);
   }
@@ -169,13 +169,13 @@
     margin-right: 0px;
   }
 }
-@media (max-width: 767px) {
+@media(max-width: 767px) {
   .team-wrappertile1-root-class-name5 {
     align-self: flex-end;
     margin-left: 0px;
   }
 }
-@media (max-width: 479px) {
+@media(max-width: 479px) {
   .team-wrappertile1-team-wrappertile {
     align-self: flex-end;
   }
@@ -211,7 +211,7 @@
   font-weight: 400;
   line-height: 140%;
 }
-@media (max-width: 479px) {
+@media(max-width: 479px) {
   .office-place-wrapper-office-place-wrapper-city {
     font-size: 22px;
   }
@@ -1127,7 +1127,6 @@
   z-index: 3000;
   column-gap: 1vw;
   justify-content: flex-end;
-  flex-wrap: wrap;
 }
 .iseno-home-team-section-container-wrapper-top-function-text {
   align-self: flex-start;
@@ -1893,7 +1892,7 @@
   justify-content: center;
 }
 .iseno-home-iseno-group-logo-img {
-  width: 350px;
+  width: auto;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .iseno-home-footer-containerinfo-box-e-mail {
@@ -1976,7 +1975,7 @@
   line-height: 150%;
   text-decoration: underline;
 }
-@media (max-width: 1600px) {
+@media(max-width: 1600px) {
   .iseno-home-brands-section {
     height: 100%;
     flex-wrap: wrap;
@@ -2067,7 +2066,7 @@
     width: auto;
   }
 }
-@media (max-width: 1200px) {
+@media(max-width: 1200px) {
   .iseno-home-awards-wrapperblock {
     width: 70%;
   }
@@ -2099,7 +2098,7 @@
     margin-bottom: 0px;
   }
   .iseno-home-clients-gridimg05 {
-    margin-bottom: header 0px;
+    margin-bottom: 0px;
   }
   .iseno-home-clients-gridimg07 {
     margin-bottom: 0px;
@@ -2114,9 +2113,15 @@
     width: 2em;
   }
 }
-@media (max-width: 991px) {
+@media(max-width: 991px) {
   .iseno-home-header {
     width: 100%;
+  }
+  .iseno-home-desktop-nav {
+    display: none;
+  }
+  .iseno-home-burger-nav {
+    display: flex;
   }
   .iseno-home-hero-section {
     width: 100%;
@@ -2226,20 +2231,13 @@
   .iseno-home-clients-gridimg {
     width: 200px;
   }
-  .iseno-home-iseno-group-logo-img {
-    width: 240px;
-  }
 }
-@media (max-width: 767px) {
+@media(max-width: 767px) {
   .iseno-home-navbar {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .iseno-home-desktop-nav {
-    display: none;
-  }
   .iseno-home-burger-nav {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -2404,6 +2402,12 @@
     width: auto;
     align-self: stretch;
   }
+  .iseno-home-team-section-container-wrapper-top {
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
   .iseno-home-awards-section {
     padding-left: var(--dl-space-space-padding-9pro);
   }
@@ -2517,6 +2521,10 @@
   .iseno-home-clients-sectionsubheading {
     font-size: 48px;
   }
+  .iseno-home-footer-container {
+    gap: 45px;
+    flex-direction: column;
+  }
   .iseno-home-footer-containerlinks-wrapperboxlink-text {
     font-size: 28px;
   }
@@ -2535,14 +2543,17 @@
   .iseno-home-footer-containerlinks-wrapperboxlink-img2 {
     width: 1em;
   }
+  .iseno-home-footer-containerinfo-box {
+    width: 100%;
+  }
   .iseno-home-iseno-group-logo-img {
-    width: 240px;
+    width: 60vw;
   }
   .iseno-home-footer-offices-wrapper-countriies-containers {
     flex-direction: column;
   }
 }
-@media (max-width: 479px) {
+@media(max-width: 479px) {
   .iseno-home-header {
     flex-direction: column;
   }
@@ -2659,6 +2670,7 @@
     width: 120px;
   }
   .iseno-home-footer-container {
+    gap: 45px;
     flex-direction: column;
   }
   .iseno-home-footer-containerlinks-wrapper {
@@ -2684,8 +2696,7 @@
     text-decoration: none;
   }
   .iseno-home-footer-containerinfo-box {
-    width: auto;
-    margin-top: 9 vh;
+    width: 100%;
   }
   .iseno-home-text85 {
     font-size: 18px;
